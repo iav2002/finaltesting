@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+
+    <link rel="stylesheet" href="./kanban.css" />
+    
+</head>
+
+<body>
+    <div class="board">
+        <div class="button-container">
+            <form id="todo-form">
+                <input type="text" placeholder="New TODO..." id="todo-input" />
+                <input type="submit">
+            </form>
+            <button id="go-back"><img src="Images/Untitled design (1).png"></button>
+        </div>        
+        <div class="lanes">
+            <div class="swim-lane" id="todo-lane">
+                <h3 class="heading">TODO</h3>
+
+            </div>
+            <div class="swim-lane" id="wip-lane">
+                <h3 class="heading">WORK IN PROGRESS</h3>
+
+
+            </div>
+            <div class="swim-lane" id="done-lane">
+                <h3 class="heading">DONE</h3>
+            </div>
+        </div>
+    </div>
+    <script src="./render.js" defer></script>
+    <script src="./drag.js" defer></script>
+    <script src="./todo.js" defer></script>
+</body>
+
+
+</html>
