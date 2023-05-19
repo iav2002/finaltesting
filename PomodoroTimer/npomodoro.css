@@ -1,7 +1,7 @@
 :root {
     font-size: 62.5%; /* 1rem = 10px */
     --color-primary: hsl(0, 0%, 0%);
-    --color-secondary: hsl(0, 42%, 62%);
+    --color-secondary: hsl(210, 91%, 78%);
     --color-font: hsla(0, 0%, 98%, 0.902);
     --color-shadow: hsl(240, 1%, 62%);
 }

@@ -13,9 +13,6 @@ function createWindow() {
   });
 
   mainWindow.loadFile('index.html');
-
-
-  
 }
 
 app.whenReady().then(() => {

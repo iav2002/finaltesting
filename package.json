@@ -1,12 +1,12 @@
 {
-  "name": "mykanbanca",
+  "name": "mykanban",
   "version": "1.0.0",
-  "description": "",
+  "description": "kanban board & pomodoro timer application",
   "main": "main.js",
   "scripts": {
     "start":"electron main.js"
   },
-  "author": "Bernardo and Ignacio",
+  "author": "Bernardo2021283 and Ignacio2021357",
   "devDependencies": {
     "version": "19.0.0"
   },
