@@ -9,6 +9,7 @@ function createWindow() {
     webPreferences: {
       nodeIntegration: true,
     },
+    icon: __dirname + 'Imagenes/planning.png',
   });
 
   mainWindow.loadFile('index.html');
