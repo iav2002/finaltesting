@@ -1,18 +1,21 @@
 'use strict';
 
-const { app, BrowserWindow, ipcMain } = require('electron');
+const { app, BrowserWindow, ipcMain, Menu} = require('electron');
 
 function createWindow() {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    autoHideMenuBar: true,
     webPreferences: {
       nodeIntegration: true,
     },
-  
   });
 
   mainWindow.loadFile('index.html');
+
+
+  
 }
 
 app.whenReady().then(() => {

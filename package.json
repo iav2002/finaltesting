@@ -4,10 +4,11 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"electron main.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Bernardo and Ignacio",
+  "devDependencies": {
+    "version": "19.0.0"
+  },
+  "license": "MIT"
 }

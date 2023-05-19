@@ -1,10 +1,8 @@
 :root {
     font-size: 62.5%; /* 1rem = 10px */
-
     --color-primary: hsl(0, 0%, 0%);
     --color-secondary: hsl(0, 42%, 62%);
     --color-font: hsla(0, 0%, 98%, 0.902);
-
     --color-shadow: hsl(240, 1%, 62%);
 }
 
@@ -16,7 +14,7 @@
 
 html, body {
     height: 100%;
-    background: url('images/si.avif') no-repeat center center fixed; 
+    background: url('images/Work.avif') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -26,7 +24,7 @@ html, body {
 }
 
 body.break-mode {
-    background: url('images/coffeebreak.avif') no-repeat center center fixed; 
+    background: url('images/Coffee.avif') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
